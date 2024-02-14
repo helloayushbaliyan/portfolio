@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300;400;500&family=Ubuntu:wght@300;400;500&display=swap"
         rel="stylesheet">
@@ -19,7 +22,7 @@
 
 <body class="bg-[#292F36] m-0 p-0 text-[#fff] font-ibm-plex-mono scroll-m-11 ">
     <header class="">
-        <nav class="nav-bar fixed bg-[#292F36] w-full">
+        <nav class="nav-bar fixed top-10 in bg-[#292F36] w-full">
             <div class="grid grid-flow-col my-6 sm:px-10 md:px-15 lg:px-20 px-3">
                 <div class="nav-items-lft sm:text-3xl text-2xl font-medium">
                     <a href="index.html">
@@ -49,7 +52,7 @@
 
                     <div class="hidden sm:block hover:scale-110 transition-all duration-500">
                         <a href="https://www.instagram.com/iamayushbaliyan/edit/" class="flex">
-                            <img src="images/instagram-icon.png" class="w-[1.5rem] h-[1.3rem] mr-1 " alt="">
+                            <img src="/images/instagram-icon.png" class="w-[1.5rem] h-[1.3rem] mr-1 " alt="">
                             <h1
                                 class="lg:block hidden hover:text-[#12F7D6] hover:border-b-2 border-[#12F7D6] transition-all duration-300 ">
                                 instagram</h1>
@@ -57,7 +60,7 @@
                     </div>
                     <div class="hidden sm:block hover:scale-110 transition-all duration-500 ">
                         <a href="" class="flex">
-                            <img src="images/discord-icon.png" class="w-[1.5rem] h-[1.5rem] mr-1" alt="">
+                            <img src="/images/discord-icon.png" class="w-[1.5rem] h-[1.5rem] mr-1" alt="">
                             <h1
                                 class="lg:block hidden hover:text-[#12F7D6] hover:border-b-2 border-[#12F7D6] transition-all duration-300">
                                 Discord</h1>
@@ -65,7 +68,7 @@
                     </div>
                     <div class=" hidden sm:block hover:scale-110 transition-all duration-500">
                         <a href="https://github.com/helloayushbaliyan" class="flex">
-                            <img src="images/github-icon.png" class="w-[1.3rem] h-[1.2rem] mr-1" alt="">
+                            <img src="/images/github-icon.png" class="w-[1.3rem] h-[1.2rem] mr-1" alt="">
                             <h1
                                 class="lg:block hidden hover:text-[#12F7D6] hover:border-b-2 border-[#12F7D6] transition-all duration-300">
                                 Github</h1>
@@ -79,9 +82,16 @@
     </header>
 
     <section class="developer-scn  mt-16 pl-5 md:pl-9 pb-10">
-        <div class="sm:flex mt-5 gap-[3.5rem] py-8 md:pr-20 pr-4">
-            <div
-                class="bg-[#1A1E23] w-14 h-[21rem] py-4 space-y-5 border-2 border-[white] rounded-3xl px-3 hidden lg:block">
+        <div class=" sm:flex mt-5 gap-[3.5rem] py-8 md:pr-20 pr-4">
+            <div  data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+                class=" bg-[#1A1E23] w-14 h-[21rem] py-4 space-y-5 border-2 border-[white] rounded-3xl px-3 hidden lg:block">
 
                 <svg class="w-[2rem] h-[2rem] px-1 py-1  text-white hover:bg-white rounded-full  hover:text-black"
                     aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
@@ -123,12 +133,20 @@
                 <div class="md:mt-[9rem]">
                     <h1 class="text-[4rem] text-center md:hidden text-[#12F7D6]">Developer</h1>
 
-                    <div class="flex justify-center">
+                    <div
+                    data-aos="fade-down"
+                    data-aos-offset="200"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                     class=" flex justify-center">
                         <div
                             class="mx-auto border-[0.5rem]   border-r-white border-l-[#12F7D6] border-t-[#12F7D6] rounded-tl-[8rem] rounded-br-[8rem] px-2 py-4 pb-16 text-sm ">
                             <div
                                 class="border-2 border-white rounded-full mx-auto w-[5rem] h-[5rem] overflow-hidden mt-5">
-                                <img src="images/birmingham-museums-trust-TWavMkqC_cc-unsplash 1.png" alt="">
+                                <img src="/images/birmingham-museums-trust-TWavMkqC_cc-unsplash 1.png" alt="">
                             </div>
 
                             <h1 class="text-center text-2xl font-semibold ">Ayush Baliyan</h1>
@@ -185,18 +203,26 @@
                                 <button
                                     class="hover:bg-[#12F7D6] hover:text-black rounded-2xl p-1 hover:font-medium">Github</button>
                             </div>
-                            <a href="images/resume.pdf" download="cv">
+                            <a href="/images/resume.pdf" download="cv">
                                 <div
                                     class="flex justify-center w-[15.5rem] py-2 bg-white  text-black hover:bg-[#12F7D6] transition-all duration-500 rounded-3xl space-x-2 mt-3">
                                     <button class="text-xl  font-semibold">Download Cv</button>
-                                    <img src="images/icon-download.png" alt="">
+                                    <img src="/images/icon-download.png" alt="">
                                 </div>
                             </a>
 
                         </div>
                     </div>
                 </div>
-                <div class="mx-5 sm:mx-9 md:mx-0">
+                <div  data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+                  class=" mx-5 sm:mx-9 md:mx-0">
                     <h1 class="text-[4rem] hidden md:block text-[#12F7D6]">Developer</h1>
 
                     <p class="mt-10">
@@ -218,7 +244,7 @@
                     </p>
                     <div class="flex space-x-4 mt-10">
                         <h1 class="text-4xl text-[#12F7D6]">let’s talk</h1>
-                        <img class=" bg-gray-700 rounded-full p-2" src="images/icon-mail.svg" alt="">
+                        <img class=" bg-gray-700 rounded-full p-2" src="/images/icon-mail.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -227,15 +253,16 @@
 
     </section>
 
-    <section id="about-me-scn" class=" bg-[#1a1e23] py-16">
+    <section     data-aos="fade-up"
+    id="about-me-scn" class=" bg-[#1a1e23] py-16">
         <div class="">
-            <div class="flex justify-center">
-                <img src="images/Scroll.png" alt="">
+            <div class="shake flex justify-center">
+                <img src="/images/Scroll.png" alt="">
             </div>
         </div>
         <div class="lg:grid grid-flow-col gap-[3rem] lg:mx-24 mx-5 mt-14">
             <div class="">
-                <div
+                <div 
                     class="bg-[#292F36] w-[10rem] px-5 py-2 rounded-tl-3xl rounded-br-3xl mb-8 text-2xl border-2 border-[#12F7D6] ">
                     <h1 class="">About me</h1>
 
@@ -266,7 +293,7 @@
                 </div>
             </div>
             <div class="mt-4 md:mt-0">
-                <img src="images/about-me-img.png" class="lg:w-[21rem] w-full lg:h-[30rem]" alt="">
+                <img src="/images/about-me-img.png" class="lg:w-[21rem] w-full lg:h-[30rem]" alt="">
             </div>
         </div>
 
@@ -275,7 +302,7 @@
     <section id="skills-scn" class=" py-16">
         <div class="">
             <div class="flex justify-center">
-                <img src="images/Scroll.png" alt="">
+                <img src="/images/Scroll.png" alt="">
             </div>
         </div>
         <div class="flex justify-center mx-5">
@@ -284,7 +311,7 @@
                     <div class="">
                         <h1 class="text-[#12F7D6] text-center text-5xl">skills</h1>
                         <div class="flex justify-center">
-                            <img src="images/Line 22.png" cl alt="">
+                            <img src="/images/Line 22.png" cl alt="">
                         </div>
                         <p class=" text-center">I am striving to never stop learning and improving</p>
                     </div>
@@ -292,7 +319,7 @@
                 <div class="sm:flex justify-center gap-20 mt-8 space-y-5 sm:space-y-0">
                     <div class="bg-[#98FAEC] px-8 py-6 rounded-3xl text-black">
                         <div class="flex justify-center">
-                            <img src="images/icon-monitor.png" alt="">
+                            <img src="/images//icon-monitor.png" alt="">
                         </div>
                         <h1 class=" text-2xl text-center mt-3">web developement</h1>
                         <p class="text-sm text-center ">HTML·CSS·JS·REACT</p>
@@ -302,22 +329,22 @@
                 <div class="md:flex text-center gap-16 mt-9 text-2xl">
                     <div class="flex justify-center gap-7 md:gap-16">
                         <div class="space-y-4">
-                            <img src="images/html-icon.png" alt="">
+                            <img src="/images/html-icon.png" alt="">
                             <h1 class="text-[#E54F26]">Html</h1>
                         </div>
                         <div class="space-y-4">
-                            <img src="images/css-icon.png" alt="">
-                            <h1 class="text-[#0C73B8]">Css</h1>
+                            <img src="/images/css-icon.png" alt="">
+                            <h1 class="text-[#0C73B8]">Html</h1>
                         </div>
                     </div>
                     <div class="flex justify-center gap-16">
                         <div class="space-y-4">
-                            <img src="images/tailwind-css.svg"
+                            <img src="/images/tailwind-css.svg"
                                 class="h-[9rem] p-[1em] w-[9rem] rounded-full bg-[#1A1E23]" alt="">
                             <h1 class="text-[#54c8b7]">Tailwindcss</h1>
                         </div>
                         <div class="space-y-4">
-                            <img src="images/github-mark-white.svg" class="h-[9rem] w-[9rem]" alt="">
+                            <img src="/images/github-mark-white.svg" class="h-[9rem] w-[9rem]" alt="">
                             <h1 class="text-white">Git Hub</h1>
                         </div>
                     </div>
@@ -326,17 +353,17 @@
                     <div class="space-y-4">
 
                         <div class="">
-                            <img src="images/figma_logo.png" class="rounded-full w-[9rem] h-[9rem]" alt="">
+                            <img src="/images/figma_logo.png" class="rounded-full w-[9rem] h-[9rem]" alt="">
                         </div>
 
                         <h1 class="text-blue-200 text-center">Figma</h1>
                     </div>
                     <div class="space-y-4">
-                        <img src="images/icon-discord.png" class="h-[9rem] w-[9rem]" alt="">
+                        <img src="/images/icon-discord.png" class="h-[9rem] w-[9rem]" alt="">
                         <h1 class="text-[#28A9E0]  text-center">Discord</h1>
                     </div>
                     <div class="space-y-4 hidden md:block">
-                        <img src="images/wordpress-icon.svg" class="h-[9rem] w-[9rem] bg-white rounded-full" alt="">
+                        <img src="/images/wordpress-icon.svg" class="h-[9rem] w-[9rem] bg-white rounded-full" alt="">
                         <h1 class="text-[#28A9E0] text-center">Word Press</h1>
                     </div>
                 </div>
@@ -348,7 +375,7 @@
     <section class=" bg-[#1a1e23] pt-12">
         <div class="">
             <div class="flex justify-center">
-                <img src="images/Scroll.png" alt="">
+                <img src="/images/Scroll.png" alt="">
             </div>
         </div>
         <div class="flex justify-center mx-5">
@@ -357,7 +384,7 @@
                     <div class="">
                         <h1 class="text-[#12F7D6] text-center text-5xl">Works</h1>
                         <div class="flex justify-center">
-                            <img src="images/Line 22.png" cl alt="">
+                            <img src="/images/Line 22.png" cl alt="">
                         </div>
                         <p class=" text-center">I had the pleasure of working with these awesome projects</p>
                     </div>
@@ -365,14 +392,14 @@
                 <div class="flex">
                     <div
                         class="bg-[#292F36] hidden lg:block  p-6 h-[5.5rem] align-middle	 rounded-full mt-[10rem] hover:scale-110 transition-all duration-500 ">
-                        <img src="images/icon-chevron-left.svg" alt="">
+                        <img src="/images/icon-chevron-left.svg" alt="">
                     </div>
                     <div class="">
-                        <img src="images/code-in-pc.png" class="" alt="">
+                        <img src="/images/code-in-pc.png" class="" alt="">
                     </div>
                     <div
                         class="bg-[#292F36] hidden lg:block  p-6 h-[5.5rem] align-middle	 rounded-full mt-[10rem] hover:scale-110 transition-all duration-500 ">
-                        <img src="images/icon-chevron-right.svg" alt="">
+                        <img src="/images/icon-chevron-right.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -382,7 +409,7 @@
     <section class=" py-16">
         <div class="">
             <div class="flex justify-center">
-                <img src="images/Scroll.png" alt="">
+                <img src="/images/Scroll.png" alt="">
             </div>
         </div>
         <div class="flex justify-center lg:mx-40 md:mx-14 mx-5">
@@ -391,7 +418,7 @@
                     <div class="">
                         <h1 class="text-[#12F7D6] text-center text-5xl">Contact</h1>
                         <div class="flex justify-center">
-                            <img src="images/Line 22.png" cl alt="">
+                            <img src="/images/Line 22.png" cl alt="">
                         </div>
                         <p class=" text-center">I am striving to never stop learning and improving</p>
                     </div>
@@ -461,15 +488,15 @@
             <div class="flex justify-center space-x-4">
 
                 <a href="">
-                    <img src="images/icon-instagram.png" alt=""
+                    <img src="/images/icon-instagram.png" alt=""
                         class="bg-[#12F7D6] rounded-full p-2 hover:scale-125 transition-all duration-500">
                 </a>
                 <div class="">
-                    <img src="images/discord.png" alt=""
+                    <img src="/images/discord.png" alt=""
                         class="bg-[#12F7D6] rounded-full p-2 hover:scale-125 transition-all duration-500">
                 </div>
                 <div class="">
-                    <img src="images/github.png" alt=""
+                    <img src="/images/github.png" alt=""
                         class="bg-[#12F7D6] rounded-full p-2 hover:scale-125 transition-all duration-500">
                 </div>
 
@@ -491,6 +518,11 @@
 
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
